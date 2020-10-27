@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>position z-index</title>   
+ </head>   
+ <style>
+     .box_static{
+         position: static;
+         width: 230px;
+	     height: 125px;
+	     background:rgb(226, 223, 223);
+         border:1px solid ;
+         margin-left:5%;
+         margin-top: 5%;
+         margin-bottom: 2%;
+     }
+     .box_relative{
+         position: relative;
+         width: 400px;
+	     height: 100px;
+	     background:rgb(226, 223, 223);
+         border:1px solid ;
+         left:90px;
+         top:5%;
+         bottom: -40px;
+         
+
+     }
+     .box_simple{
+         position: relative;
+         width: 230px;
+	     height: 125px;
+	     background:rgb(226, 223, 223);
+         border:1px solid ;
+         margin-left:5%;
+         margin-top: 21px;
+         margin-bottom:10px;
+         top: 0%;
+
+     }
+     .box_absolute{
+         position: absolute;
+         width: 280px;
+	     background:rgb(226, 223, 223);
+         border:1px solid ;
+         left: 200px;
+         height: 160px;
+         bottom: 270px;
+     }
+     .box_fixed{
+         position: fixed;
+         width: 250px;
+	     height: 100px;
+	     background:black;
+         border:1px solid ;
+         left: 600px;
+         bottom: 350px;
+
+     }
+     .box_relative_z{
+         position: fixed;
+         width: 250px;
+	     height: 100px;
+	     background:rgb(226, 223, 223);
+         border:1px solid ;
+         z-index: 2;
+         margin-left: 5%;
+     }
+    
+     .box_z_child{
+         width: 240px;
+	     height: 100px;
+	     background:rgb(226, 223, 223);
+         border:1px solid ;
+         z-index: 2;
+         margin-left: 20px;
+     }
+     #fixed{
+         color: white;
+         padding: 10px;
+
+     }
+     #simple{
+         background-color: grey;
+         width: 90px;
+         height: 40px;
+         padding: 5px;
+     }
+     p{
+         text-indent: 10px;
+     }
+     
+        
+
+
+
+ </style>
+ <body>
+     <div class="Main">
+         <div class="box_static">
+             <p>Default position is static</p>
+         </div>
+         <div class="box_relative">
+             <p>This element has a relative position</p>
+         </div>
+         <div class="box_simple">
+            <p id="simple">Simple div</p>
+         </div>
+         <div class="box_absolute">
+             <p align="right">Absolutely positioned element doesn't interact with the structure of other elements</p>
+         </div>
+         <div class="box_fixed">
+             <p align="center" id="fixed">Fixed position with top and left properties</p>
+         </div>
+         <div class="box_relative_z">
+             <p>This element is relative with z-index</p>
+             <div class="box_z_child">
+                <p align="left">It's child onherits z-index...</p>
+            </div>
+         </div>
+         
+     </div>
+ </body>
+</html>
