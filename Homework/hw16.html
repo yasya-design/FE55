@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>         
+    <meta charset="UTF-8">
+    <title>Homework</title>
+</head>
+<style>
+    .comtainer{
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    .text1{
+        color: black;
+        text-shadow: 20px 30px grey;
+    }
+    .text2{
+        color: black;
+        text-shadow: 20px 30px 5px grey ;
+    }
+    .text3{
+        color: black;
+        text-shadow: 10px 10px 5px red,-10px -10px 5px blue ;
+    }
+    .text4{
+        color: deeppink;
+        text-shadow: -1px -1px black, 1px 1px white;
+    }
+    .text5{
+        color: deeppink;
+        text-shadow: 1px 1px 3px greenyellow, -1px -1px 3px white, 1px 1px greenyellow,-1px -1px white;
+
+    }
+    .text6{
+        color: turquoise;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black,0 -1px black ;
+    }
+    #box1{
+        border: 1px black solid;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 70px;
+        box-shadow: 20px 30px  grey;
+        margin: 0 auto;
+
+
+
+    }
+    #box2{
+        border: 1px black solid;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        box-shadow: 20px 30px 10px grey;
+        margin-bottom: 50px;
+        margin-top: 65px;
+
+    }
+    #box3{
+        box-shadow: inset 5px 5px 10px blue, inset -5px -5px 10px red;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+
+    }
+    #gr{
+        width: 400px;
+        height: 200px;
+        border: 1px black solid;
+        background: linear-gradient(to right, red 0px, greenyellow 200px, yellow 350px, red);
+        margin-top: 50px;
+    }
+    #g2{
+        width: 600px;
+        height: 300px;
+        border: 1px solid black;
+        background: linear-gradient(0deg, red 0px, red 100px, white 100px, white 200px, red 200px, red 300px);
+        margin-top: 50px;
+    }
+    #g3{
+        width: 400px;
+        height: 200px;
+        border: 1px solid black;
+        background: radial-gradient(circle closest-side, #55ddff, #0c46e4);
+        margin-top: 50px;
+    }
+    #g4{
+        width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle closest-corner at 30px 40px, #55ddff, #0c46e4);
+    margin-top: 50px;
+    }
+    #g5{
+        width: 400px;
+        height: 200px;
+        border: 1px solid black;
+        background: radial-gradient(circle closest-side, blue 10px, white 30px, white 40px, pink 50px);
+        margin-top: 50px;
+    }
+</style>
+<body>
+ <div class="comtainer">
+    <div class="text1">
+        <p>Текст с тенью</p>
+    </div>
+    <div class="text2">
+        <p>Текст с тенью + размитие</p>
+    </div>
+    <div class="text3">
+        <p>Текст с двумя тенями</p>
+    </div>
+    <div class="text4">
+        <p>Вдавленный текст</p>
+    </div>
+    <div class="text5">
+        <p>Обьемный текст</p>
+    </div>
+    <div class="text6">
+        <p>Контур</p>
+    </div>
+</div>
+<div class="box">
+    <div id="box1">
+        <p>Блок с тенью</p>
+    </div>
+    <div id="box2">
+        <p>Блок с тенью + размытие</p>
+    </div>
+    <div id="box3">
+        <p>Две внутренние тени</p>
+    </div>
+</div>
+<div id="gr"></div>
+<div id="g2"></div>
+
+<div id="g3"></div>
+<div id="g4"></div>
+<div id="g5"></div>
+
+
+</body>
