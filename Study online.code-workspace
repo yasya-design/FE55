@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../homework"
+	},
+	{
+		"path": "."
+	}
+],
+"settings": {
+	"liveServer.settings.multiRootWorkspaceName": "FE55"
+}
+}

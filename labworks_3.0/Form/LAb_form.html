@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h2>HTML forms</h2>
+        <form>
+            <p>
+                <label>Empty login</label>
+                <br><input type="text" >
+            </p>
+            <p>
+                <label>Login with placeholder</label>
+                <br><input type="text" placeholder="Write something">
+            </p>
+            <p>
+                <label>Login with value</label>
+               <br> <input type="text" value="Some Text">
+            </p>
+            <p>
+                <label>Description:</label>
+                <br><textarea rows="3" cols="20" name="Commnent"></textarea>
+            </p>
+        </form>
+        
+        
+        
+        <div class="question1">
+            <label>Radio - You can only choose one option:</label>
+            <br><input type="radio" name="sex" value="male" id="male"> 
+            <label for="USA">Male</label>
+            <br><input type="radio" name="sex" value="Female" id="Female"> 
+            <label for="USA">Female</label>
+        </div>
+        <br>
+        <div class="question2">
+            <label>Checkbox - You can only choose all option you need</label>
+            <br><input type="checkbox" name="product" value="bike" name="bike">
+            <label for="bike">I have a bike</label>
+            <br><input type="checkbox" name="product" value="car" name="car">
+            <label for="car">I have a car</label>
+
+        </div>
+
+        <div class="question3">
+           <p><label>Select - dropdown with some option:</label>
+            <br><label>Choose a car:</label>
+            <select name="cars">
+                <option>BMW</option>
+                <option>Ford</option>
+                <option>Jeep</option>
+                <option>Audi</option>
+            </select>
+        </div>
+        <div class="4">
+            <input type="submit" value="Submit"
+        </div>
+    </body>
+</html>
