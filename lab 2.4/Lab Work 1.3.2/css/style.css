@@ -1,0 +1,25 @@
+img{
+    width: 271px;
+    margin: 0 auto;
+    display: block;
+}
+table{
+    width: 900px;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+tr, th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+.description{
+    text-align: justify;
+    padding: 15px;
+    
+}
+h1{
+    text-align: center;
+}
+tfoot{
+    width: 900px;
+}

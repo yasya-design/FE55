@@ -1,0 +1,61 @@
+button{
+    cursor: pointer;
+    font-weight: bold;
+}
+header, footer{
+    background-color: lightcyan;
+    padding: 15px;
+}
+header{
+    text-align: right;
+}
+.head{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: green 2px solid;
+    
+}
+.head:hover{
+    background-color: lightsalmon;
+    color: lightseagreen;
+}
+.head:focus{
+    border: red 2px solid;
+
+}
+.container{
+    border: 1px solid green;
+    padding: 15px;
+    margin: 10px;
+}
+.text, .text2{
+    background-color: lavenderblush;
+    text-align: justify;
+}
+.more{
+    margin-left: 10px;
+    background-color: violet;
+    border: none;
+    
+    border-radius: 5px;
+    padding: 5px;
+}
+.more:hover{
+    background-color: white;
+    border: violet 2px solid;
+}
+#sub{
+    background-color: #4158D0;
+    background-image: linear-gradient(31deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+#sub:hover{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(31deg, #D9AFD9 0%, #97D9E1 100%);
+
+}

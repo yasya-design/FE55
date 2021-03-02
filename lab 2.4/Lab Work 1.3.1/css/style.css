@@ -1,0 +1,33 @@
+body{
+    margin: 0px 77px;
+    background: aliceblue;
+}
+iframe{
+    width: 900px;
+    height: 500px;
+}
+p{
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 35px;
+    font-size: 17px;
+}
+b{
+    color: purple;
+}
+img{
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    display: block;
+}
+h1, h2{
+    text-align: center;
+    color: purple;
+}
+li{
+    list-style-type: circle;
+    padding: 2px;
+    font-size: 17px;
+}

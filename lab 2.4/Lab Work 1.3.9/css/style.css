@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  background-color: antiquewhite;
+}
+button{
+  border: none;
+  transition: 0.4s;
+  font-weight: bold;
+  border-radius: 8px;
+}
+h2{
+  text-align: center;
+}
+.header-item {
+  padding: 10px;
+  color: white;
+  background-color: tomato;
+  margin-right: 10px;
+}
+.header-item:hover{
+  background-color:hotpink;
+}
+.pull-right {
+  margin-left: auto;
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 5px;
+}
+
+.event-fluidColumn {
+  background-color: beige;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.event-fixedColumn {
+  flex: 0 0 200px;
+  padding: 15px;
+  border: solid 1px antiquewhite;
+  background-color: floralwhite;
+}
+
+.job {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px;
+}
+.job-fixedColumn {
+  flex: 0 0 200px;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  background-color: darksalmon;
+}
+
+.job-fluidColumn {
+  display: flex;
+  padding: 15px;
+  margin: 10px;
+  color: black;
+  background-color: gold;
+}
+.apply-button {
+  padding: 15px;
+  color: white;
+  background-color: rgb(243, 111, 50);
+  align-self: flex-end;
+  
+}
+.apply-button:hover{
+  background-color: darkseagreen;
+}
